@@ -1,6 +1,8 @@
 # Jogos-Do-Guba
 Este repositório contém o código-fonte de um site de jogos que estou desenvolvendo ao longo das minhas aulas. O projeto será hospedado no GitHub Pages e incluirá diversos conteúdos interativos. Fique à vontade para explorar e acompanhar a evolução do site!
+
 🎮 Meu Site de Jogos
+
 Este é um projeto em desenvolvimento durante minhas aulas, onde estou aprendendo a construir páginas web. O objetivo é criar um site interativo com jogos e outras funcionalidades.
 
 🚀 Tecnologias Utilizadas
