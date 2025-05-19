@@ -45,6 +45,37 @@ body {
   gap: 10px;
 }
 
+.logo-contain-outside {
+  position: absolute;
+  top: 10px; /* Ajuste o valor conforme necessário para alinhar verticalmente */
+  right: 20px; /* Ajuste o valor conforme necessário para alinhar horizontalmente */
+  z-index: 10; /* Garante que o logo fique acima de outros elementos */
+}
+
+.student-logo {
+  height: 100px;
+}
+
+.logo-container-outside::before {
+  content: "";
+  position: absolute;
+  top: -3px; /* Ajuste conforme necessário para criar borda */
+  left: -3px;
+  right: -3px;
+  bottom: -3px;
+  border-radius: 10px; /* Arredondamento dos cantos */
+  background: var(--gradient-primary); /* Aplicação do gradiente */
+  z-index: -1; /* Coloca o pseudo-elemento atrás da imagem */
+  transition: all 0.3s ease; /* Transição suave para hover */
+  
+}
+
+/* Efeito de hover no logo */
+.logo-container-outside:hover::before {
+  background: var(--gradient-primary-reverse); /* Inverte gradiente ao passar o mouse */
+  box-shadow: 0 0 15px rgba(187, 255, 109, 0.6); /* Adiciona box-shadow para efeito de brilho */
+}
+
 .menu {
   font-family: 'Modak', cursive;
   font-size: 48px;
@@ -93,6 +124,10 @@ body {
   align-items: flex-start;
 }
 
+.game-frame {
+  flex:1;
+  min-width: 0;
+}
 
 .game-frame iframe {
   width: 100%;
