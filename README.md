@@ -17,7 +17,7 @@ O site será publicado através do GitHub Pages.
 
 📌 Como Acessar
 Assim que estiver disponível, o site poderá ser acessado em:
-🔗 (https://github.com/Guba531/Jogos-Do-Guba)
+🔗 https://guba531.github.io/jogosdoguba/
 
 📅 Status do Projeto
 📌 Em desenvolvimento! Atualizações serão feitas conforme avanço nos estudos.
